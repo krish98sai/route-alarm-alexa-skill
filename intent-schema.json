@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "intent": "getWakeUp",
+      "slots": [
+        {
+          "name": "LocationNumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "LocationStreet",
+          "type": "AMAZON.StreetAddress"
+        },
+        {
+          "name": "ArrivalTime",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "ReadyTime",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "StartLocationNumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "StartLocationStreet",
+          "type": "AMAZON.StreetAddress"
+        }
+      ]
+    },
+    {
+     "intent": "setStartLocation",
+     "slots": [
+       {
+          "name": "StartLocationNumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "StartLocationStreet",
+          "type": "AMAZON.StreetAddress"
+        }
+     ]
+    },
+    {
+      "intent": "setEndLocation",
+      "slots": [
+        {
+          "name": "EndLocationNumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "EndLocationStreet",
+          "type": "AMAZON.StreetAddress"
+        }
+      ]
+    },
+    {
+      "intent": "setArrivalTime",
+      "slots": [
+        {
+          "name": "ArrivalTime",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "setReadyTime",
+      "slots": [
+        {
+          "name": "ReadyTime",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "startOver"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

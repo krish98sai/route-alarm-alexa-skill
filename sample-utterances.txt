@@ -1,0 +1,61 @@
+setStartLocation start from {StartLocationNumber} {StartLocationStreet}
+setStartLocation start at {StartLocationNumber} {StartLocationStreet}
+setStartLocation start {StartLocationNumber} {StartLocationStreet}
+setStartLocation i am starting from {StartLocationNumber} {StartLocationStreet}
+setStartLocation i am starting at {StartLocationNumber} {StartLocationStreet}
+setStartLocation the start location is {StartLocationNumber} {StartLocationStreet}
+setStartLocation i start from {StartLocationNumber} {StartLocationStreet}
+setStartLocation the start location is {StartLocationNumber} {StartLocationStreet}
+setStartLocation start location {StartLocationNumber} {StartLocationStreet}
+setStartLocation start location is {StartLocationNumber} {StartLocationStreet}
+
+setEndLocation {EndLocationNumber} {EndLocationStreet}
+setEndLocation end at {EndLocationNumber} {EndLocationStreet}
+setEndLocation end {EndLocationNumber} {EndLocationStreet}
+setEndLocation i end at {EndLocationNumber} {EndLocationStreet}
+setEndLocation i end {EndLocationNumber} {EndLocationStreet}
+setEndLocation end up at {EndLocationNumber} {EndLocationStreet}
+setEndLocation i need to end up at {EndLocationNumber} {EndLocationStreet}
+setEndLocation i need to be at {EndLocationNumber} {EndLocationStreet}
+setEndLocation the end is {EndLocationNumber} {EndLocationStreet}
+setEndLocation the end location is {EndLocationNumber} {EndLocationStreet}
+setEndLocation the end location {EndLocationNumber} {EndLocationStreet}
+setEndLocation i am headed to {EndLocationNumber} {EndLocationStreet}
+setEndLocation i am going to {EndLocationNumber} {EndLocationStreet}
+setEndLocation headed to {EndLocationNumber} {EndLocationStreet}
+setEndLocation going to {EndLocationNumber} {EndLocationStreet}
+
+setArrivalTime {ArrivalTime}
+setArrivalTime i need to be there by {ArrivalTime}
+setArrivalTime i need to be there by {ArrivalTime}
+setArrivalTime i need to get there at {ArrivalTime}
+setArrivalTime i need to get there by {ArrivalTime}
+setArrivalTime the arrival time is {ArrivalTime}
+setArrivalTime i should get there at {ArrivalTime}
+setArrivalTime i want to be there at {ArrivalTime}
+setArrivalTime arrival time {ArrivalTime}
+setArrivalTime time {ArrivalTime}
+setArrivalTime arrival {ArrivalTime}
+setArrivalTime be there at {ArrivalTime}
+
+setReadyTime {ReadyTime}
+setReadyTime {ReadyTime} minutes
+setReadyTime {ReadyTime} minutes to get ready
+setReadyTime i need {ReadyTime} minutes to get ready
+setReadyTime i need {ReadyTime}
+setReadyTime i need {ReadyTime} minutes
+setReadyTime need {ReadyTime} minutes
+setReadyTime need {ReadyTime}
+setReadyTime i only need {ReadyTime}
+setReadyTime i only need {ReadyTime} minutes
+setReadyTime none
+setReadyTime i dont need any time
+setReadyTime no extra time
+setReadyTime no ready time
+
+startOver start over
+startOver lets try that again
+
+
+getWakeUp what time do i have to wake up to get to {LocationNumber} {LocationStreet} from {StartLocationNumber} {StartLocationStreet} at {ArrivalTime} with {ReadyTime} minutes to get ready
+getWakeUp i need to get from {StartLocationNumber} {StartLocationStreet} to {LocationNumber} {LocationStreet} at {ArrivalTime} with {ReadyTime} minutes
